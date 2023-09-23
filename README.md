@@ -10,7 +10,7 @@
   - C.C:1001416321
   - Programa de matrícula: Ingeniería de Sistemas
 
-Los datos fueron tomados de [Kaggle Competitions]([https://www.kaggle.com/settings/account](https://www.kaggle.com/competitions/playground-series-s3e20/data)):
+Los datos fueron tomados de [Kaggle Competitions](https://www.kaggle.com/competitions/playground-series-s3e20/data):
 
 Para visualizar los archivos, se cargarán los datos desde Kaggle directamente en Google Colab y luego se visualizarán con Pandas.
 
