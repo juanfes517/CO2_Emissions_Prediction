@@ -10,11 +10,15 @@
   - C.C:1001416321
   - Programa de matrícula: Ingeniería de Sistemas
 
+## Videos 
+- [Primer video (Segunda Entrega)](https://youtu.be/D_ouVxeRUas)
+
+## Visualización de los datos
 Los datos fueron tomados de [Kaggle Competitions](https://www.kaggle.com/competitions/playground-series-s3e20/data):
 
 Para visualizar los archivos, se cargarán los datos desde Kaggle directamente en Google Colab y luego se visualizarán con Pandas.
 
-### Pasos para cargar y visualizar los datos
+### Pasos para cargar los datos
 
 1. Cargar el archivo JSON de autenticación de Kaggle utilizando Google Colab:
 ```
@@ -26,21 +30,21 @@ files.upload()
 ```
 !pip install kaggle
 ```
-3.Mover el archivo JSON de autenticación a la ubicación correcta:
+3. Mover el archivo JSON de autenticación a la ubicación correcta:
 ```
 !mkdir -p ~/.kaggle
 !mv kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
 ```
-4.Descargar los datos de la competición "Playground Series - S3E20" desde Kaggle:
+4. Descargar los datos de la competición "Playground Series - S3E20" desde Kaggle:
 ```
 !kaggle competitions download -c playground-series-s3e20
 ```
-5.Descomprimir el archivo ZIP descargado:
+5. Descomprimir el archivo ZIP descargado:
 ```
 !unzip playground-series-s3e20.zip
 ```
-6.Leer el archivo de entrenamiento en un DataFrame de Pandas:
+6. Leer el archivo de entrenamiento en un DataFrame de Pandas:
 ```
 import pandas as pd
 df = pd.read_csv('train.csv')
