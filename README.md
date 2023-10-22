@@ -7,7 +7,7 @@
   - Programa de matrícula: Ingeniería Industrial (virtual)
 
 - Juan Felipe Escobar Rendón.
-  - C.C:1001416321
+  - C.C: 1001416321
   - Programa de matrícula: Ingeniería de Sistemas
 
 ## Videos 
