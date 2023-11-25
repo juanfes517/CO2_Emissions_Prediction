@@ -12,6 +12,7 @@
 
 ## Videos 
 - [Primer video (Segunda Entrega)](https://youtu.be/D_ouVxeRUas)
+- [Segundo video (Entrega Final)](https://youtu.be/XmIDtPWXXEs)
 
 ## Visualización de los datos
 Los datos fueron tomados de [Kaggle Competitions](https://www.kaggle.com/competitions/playground-series-s3e20/data):
